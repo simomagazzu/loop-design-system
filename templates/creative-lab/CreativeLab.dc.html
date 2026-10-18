@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Email · Creative.Lab" description="Creative.Lab newsletter: intro, 3 creatives with sector + why it works + Ad Library link, tips of the week, sign-off, other resources with CTA. 600px, email-safe raw hex." -->
+<helmet><script src="./ds-base.js"></script></helmet>
+<div style="background:#F3F4FA;padding:40px 16px;font-family:Inter,Arial,Helvetica,sans-serif;color:#0E1236">
+<div style="max-width:600px;margin:0 auto">
+<p style="margin:0 0 12px;font-size:12px;line-height:1.4;color:#4A5072;text-align:center">[Anteprima: tre creatività da Oreo, Glossier e Away]</p>
+<div style="background:#FFFFFF;border-radius:12px;overflow:hidden">
+
+<div style="background:#192575;padding:36px 40px 32px;color:#FFFFFF">
+<div style="display:flex;justify-content:space-between;align-items:center;gap:16px">
+<span style="font-size:13px;color:#C3C8E6">Creative.Lab · n. [00]</span>
+<img src="../../assets/logo-loop-w.svg" alt="LOOP" style="height:20px;width:auto;display:block">
+</div>
+<h1 style="margin:28px 0 0;font-size:44px;line-height:1;font-weight:700;letter-spacing:-0.03em">Creative.Lab</h1>
+<p style="margin:10px 0 0;font-size:15px;line-height:1.5;color:#C3C8E6">Tre creatività, perché funzionano e cosa puoi riprendere.</p>
+</div>
+
+<div style="padding:36px 40px 8px;font-size:16px;line-height:1.65;color:#0E1236">
+<p style="margin:0 0 14px">Ehi ehi! Come stai?</p>
+<p style="margin:0 0 14px">Io alla grande, di ritorno da un super <strong>Marketers World</strong>. Mi ha fatto davvero piacere incontrare molti di voi e son davvero felice dell'energia che ho respirato all'evento.</p>
+<p style="margin:0 0 14px">Come al solito, però, eccoci qui con delle creatività straordinarie. Le ha scelte assieme a me <strong>Simone Razza</strong>, Senior strategist e advertiser in Loop.</p>
+<p style="margin:0">Eccole!</p>
+</div>
+
+<sc-for list="{{ ads }}" as="ad" hint-placeholder-count="3">
+<div style="padding:36px 40px 0">
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding-bottom:14px;border-bottom:2px solid #192575">
+<h2 style="margin:0;font-size:28px;line-height:1.1;font-weight:700;letter-spacing:-0.02em;color:#192575">{{ ad.brand }}</h2>
+<span style="font-size:13px;font-family:'Geist Mono',ui-monospace,monospace;color:#4A5072">{{ ad.n }} / 03</span>
+</div>
+<div style="margin-top:20px;background:#E6E9F4;border-radius:12px;padding:6px">
+<div style="aspect-ratio:9/16;max-height:520px;margin:0 auto;border-radius:8px;background:#F3F4FA;display:flex;align-items:center;justify-content:center;font-size:13px;color:#4A5072;text-align:center;padding:16px">{{ ad.label }}</div>
+</div>
+<p style="margin:16px 0 0;font-size:14px;color:#4A5072"><strong style="color:#0E1236;font-weight:600">Settore</strong> · {{ ad.sector }}</p>
+<h3 style="margin:22px 0 10px;font-size:18px;line-height:1.3;font-weight:600;color:#0E1236">Perché è interessante</h3>
+<ul style="margin:0;padding-left:20px;font-size:15px;line-height:1.6;color:#0E1236">
+<li style="margin-bottom:10px">{{ ad.b1 }}</li>
+<li style="margin-bottom:10px">{{ ad.b2 }}</li>
+<li>{{ ad.b3 }}</li>
+</ul>
+<p style="margin:20px 0 0;padding:14px 16px;background:#F3F4FA;border-radius:8px;font-size:14px;line-height:1.5;color:#0E1236">Vuoi vedere altre ads di questo brand? <a href="#" style="color:#192575;font-weight:600">Apri la loro Ad Library</a></p>
+</div>
+</sc-for>
+
+<div style="margin:44px 40px 0;padding:28px;background:#F3F4FA;border-radius:12px">
+<h2 style="margin:0 0 18px;font-size:22px;line-height:1.2;font-weight:700;letter-spacing:-0.02em;color:#192575">Consigli della settimana</h2>
+<ol style="margin:0;padding-left:22px;font-size:15px;line-height:1.6;color:#0E1236">
+<li style="margin-bottom:14px"><strong>"Un limite del prodotto va nascosto."</strong> Non per forza: formato piccolo, prezzo alto o tempi di consegna lunghi possono diventare argomenti di vendita se li anticipi tu nella creative, prima che diventino un'obiezione nella testa dell'utente (l'importante è farlo con intelligenza).</li>
+<li style="margin-bottom:14px"><strong>La riprova sociale non è fatta solo di recensioni e stelline</strong>: "sold out", "di nuovo disponibile", liste d'attesa e "più venduto" comunicano una domanda reale e a volte possono essere più efficaci di uno sconto.</li>
+<li><strong>Se hai tante varianti, non limitarti a mostrarle</strong>: aiuta l'utente a scegliere. Associare ogni variante a un gusto, un'abitudine o un momento della giornata riduce la fatica di scelta e rende la creative più interessante da guardare.</li>
+</ol>
+</div>
+<div style="padding:24px 40px 0;font-size:16px;line-height:1.6;color:#0E1236">
+<p style="margin:0">A prestissimo,</p>
+<p style="margin:4px 0 0;font-weight:600">Francesco</p>
+</div>
+
+<div style="padding:44px 40px 40px">
+<h2 style="margin:0 0 20px;padding-bottom:14px;border-bottom:2px solid #192575;font-size:22px;line-height:1.2;font-weight:700;letter-spacing:-0.02em;color:#192575">Altre cose interessanti</h2>
+<p style="margin:0 0 16px;font-size:15px;line-height:1.6;color:#0E1236">[Call to action 1 · chi la propone e cosa offre, in una o due frasi. Es. <strong>Gabriele Agostinis</strong>, Head of Creatives di Loop, ha creato 100+ template Canva pronti da usare.]</p>
+<div style="aspect-ratio:2/1;border-radius:8px;background:#E6E9F4;display:flex;align-items:center;justify-content:center;font-size:13px;color:#4A5072">[Banner della call to action 1 · 2:1]</div>
+<a href="#" style="display:inline-block;margin-top:16px;background:#192575;color:#FFFFFF;text-decoration:none;font-size:15px;font-weight:600;padding:14px 24px;border-radius:8px">[Testo del bottone]</a>
+<div style="height:1px;background:#E6E9F4;margin:32px 0"></div>
+<p style="margin:0 0 16px;font-size:15px;line-height:1.6;color:#0E1236">[Call to action 2 · chi la propone e cosa offre, in una o due frasi. Es. <strong>Gabriele Agostinis</strong>, Head of Creatives di Loop, ha creato 100+ template Canva pronti da usare.]</p>
+<div style="aspect-ratio:2/1;border-radius:8px;background:#E6E9F4;display:flex;align-items:center;justify-content:center;font-size:13px;color:#4A5072">[Banner della call to action 2 · 2:1]</div>
+<a href="#" style="display:inline-block;margin-top:16px;background:#192575;color:#FFFFFF;text-decoration:none;font-size:15px;font-weight:600;padding:14px 24px;border-radius:8px">[Testo del bottone]</a>
+</div>
+
+</div>
+<div style="padding:24px 8px;font-size:12px;line-height:1.6;color:#4A5072;text-align:center">
+<p style="margin:0"><a href="https://loopsrl.agency" style="color:#192575;font-weight:600">loopsrl.agency</a> · Piazzale Clodio 22, 00195 Roma</p>
+<p style="margin:4px 0 0">Ricevi questa email perché sei iscritto a Creative.Lab. <a href="#" style="color:#192575">Disiscriviti</a> · <a href="#" style="color:#192575">Modifica le preferenze</a></p>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:680,&quot;height&quot;:2400}}">
+class Component extends DCLogic {
+  renderVals() {
+    const ads = [
+        { n: "01", brand: "Oreo", sector: "Food", format: "Story 9:16",
+          b1: "\"Not less, just mini\" in quattro parole smonta l'obiezione più probabile (formato più piccolo = meno prodotto) e la trasforma in un vantaggio.",
+          b2: "La torre di Oreo Minis in equilibrio precario dà movimento anche a un'immagine statica, con buona potenzialità di fermare lo scroll ed è tipica di brand famosi mostrare il prodotto in modo \"artistico\".",
+          b3: "Solo headline, prodotto e logo sul blu del brand: riconoscibilità a colpo d'occhio, anche senza leggere nulla." },
+        { n: "02", brand: "Glossier", sector: "Beauty", format: "Verticale 9:16",
+          b1: "\"A scent for every book genre\" trasforma la scelta tra i profumi in un gioco: ogni fragranza è abbinata a un genere letterario (Classic Literature, Beach Read, Fantasy, Dark Academia, Thriller).",
+          b2: "Online un profumo non si può annusare, quindi il brand lo racconta con riferimenti che l'utente conosce già e lo aiuta a scegliere senza provarlo.",
+          b3: "Layout pulito, un'emoji e due aggettivi per fragranza: un semplice catalogo diventa un contenuto carino anche da salvare e condividere." },
+        { n: "03", brand: "Away", sector: "Travel", format: "Story 9:16",
+          b1: "\"Sold out in record time\" usa la domanda stessa come riprova sociale: se è andata esaurita così in fretta, vuol dire che piace.",
+          b2: "Il ritorno in un nuovo colore (\"Now in Cherry Red\") unisce novità e FOMO: chi l'ha persa la prima volta ha un motivo in più per comprare subito.",
+          b3: "Valigia rossa su fondo neutro e chiusura ironica (\"And red hot.\"): prodotto protagonista, estetica premium e un tocco di personalità." },
+      ];
+    return { ads: ads.map(a => ({ ...a, label: "[Creatività · " + a.brand + "] " + a.format })) };
+  }
+}
+</script>
+</body>
+</html>

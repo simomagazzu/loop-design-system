@@ -1,0 +1,22 @@
+<!-- @dsCard group="Components" name="Choice & Filter Chips" subtitle="Single (radiogroup) · multi (aria-pressed) · filter with counts · disabled" viewport="700x300" -->
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{padding:var(--loop-space-6);}.k{font-size:var(--loop-text-xs);color:var(--loop-ink-muted)}.row{display:flex;flex-wrap:wrap;gap:var(--loop-space-4);align-items:center}.col{display:flex;flex-direction:column;gap:var(--loop-space-2);align-items:flex-start}.g{display:grid;gap:var(--loop-space-5)}.g{gap:var(--loop-space-6)}</style></head>
+<body><div id="r"></div><script type="text/babel">
+const DS = window.LOOPDesignSystem_29467e;
+const { Button, Input, Textarea, Select, ChoiceChips, FilterChips, Tabs, Accordion, Stat, WorkFrame, CaseCard, CaseRow, ClientLogoWall, PartnerBadgeRow, SectionHeader, Quote, InsightCard, Header, Footer, Icon, ICON_NAMES } = DS;
+function Card(){
+  const [a,setA]=React.useState("Nuovi mercati"); const [b,setB]=React.useState(["Meta","Google"]); const [c,setC]=React.useState("Tutti");
+  return <div className="g">
+    <ChoiceChips label="Da dove vuoi partire? (singola)" options={["Nuovi clienti","Valore del cliente","Nuovi mercati","Margine"]} value={a} onChange={setA} />
+    <ChoiceChips label="Canali attivi (multipla)" multi options={["Meta","Google","TikTok","Klaviyo"]} value={b} onChange={setB} />
+    <div className="col"><span className="lp-field__label">Filtra casi studio</span><FilterChips options={["Tutti","Paid social","Search","CRM"]} counts={{"Tutti":6,"Paid social":3,"Search":2,"CRM":1}} value={c} onChange={setC} /></div>
+    <div className="row"><span className="k">Disabled</span><button className="lp-chip" disabled>Pinterest</button></div>
+  </div>;
+}
+ReactDOM.createRoot(document.getElementById("r")).render(<Card />);
+</script></body></html>

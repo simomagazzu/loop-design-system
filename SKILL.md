@@ -18,4 +18,4 @@ Quick rules (v3 · Precisione):
 - CTAs: "Richiedi un incontro", "Scopri i casi studio". No eyebrows, no arrow-chip pills, no glass headers.
 - Tokens only: no raw hex/px outside colors_and_type.css. :focus-visible everywhere; respect prefers-reduced-motion.
 - Components: window.LOOPDesignSystem_29467e (Button, Input, Textarea, Select, ChoiceChips, FilterChips, Tabs, Accordion, Stat, CaseCard, CaseRow, WorkFrame, ClientLogoWall, PartnerBadgeRow, SectionHeader, Quote, InsightCard, Header, Footer, PersonCard, Icon).
-- Templates in templates/: Email, Whitepaper (A4), CompanyPresentation, Slidedeck. Motion: state changes + one-time reveals only; no parallax, bounce or auto-advance.
+- Templates in templates/: CreativeLab (email), InTheLoop (email), Whitepaper (A4), CompanyPresentation, Slidedeck. Motion: state changes + one-time reveals only; no parallax, bounce or auto-advance.

@@ -1,0 +1,15 @@
+<!-- @dsCard group="Components" name="Key Figures" subtitle="Loop in cifre: one statement, its split as a bar, one row of facts" viewport="1000x520" -->
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{padding:var(--loop-space-7)}</style></head>
+<body><div id="r"></div><script type="text/babel">
+const DS = window.LOOPDesignSystem_29467e;
+function Card(){ const { KeyFigures } = DS; return <KeyFigures
+  lead={{ value:"Quasi 40 milioni di euro", label:"investiti in advertising nel 2025.", breakdown:[{label:"Meta",value:"~28 M€",amount:28},{label:"Google",value:"~10 M€",amount:10},{label:"TikTok",value:"~1,5 M€",amount:1.5}] }}
+  items={[{value:"2017",label:"Anno di fondazione"},{value:"50+",label:"Professionisti full remote in Europa"},{value:"[X]",label:"Paesi in cui gestiamo progetti"},{value:"+20%",label:"Crescita attesa nel 2026"}]} />; }
+ReactDOM.createRoot(document.getElementById("r")).render(<Card />);
+</script></body></html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Whitepaper · A4" description="4-page A4 report: cover, summary + contents, content page with figure and stat, back cover. Prints 1 page per sheet." -->
+<helmet><script src="./ds-base.js"></script><style>@page{size:A4;margin:0}body{margin:0;background:#E6E9F4}@media print{body{background:none}.wp-page{margin:0!important;break-after:page}}</style></helmet>
+<div style="display:flex;flex-direction:column;align-items:center;gap:var(--loop-space-7);padding:var(--loop-space-8) 0;font-family:var(--loop-font);color:var(--loop-ink)">
+<section class="wp-page" data-screen-label="01 Cover" style="width:210mm;height:297mm;background:var(--loop-navy);color:var(--loop-on-navy);padding:22mm 20mm;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden">
+<div style="display:flex;justify-content:space-between;align-items:center"><img src="../../assets/logo-loop-w.svg" alt="LOOP" style="height:9mm"><span style="font-size:10pt;color:var(--loop-on-navy-muted)">Whitepaper · [anno]</span></div>
+<div style="display:flex;flex-direction:column;gap:8mm">
+<div style="height:62mm;background:var(--loop-navy-700);border-radius:var(--loop-radius-lg);border-top-left-radius:0;padding:var(--loop-frame-pad)"><div style="height:100%;border-radius:var(--loop-radius-md);border-top-left-radius:0;background:var(--loop-navy-900);display:flex;align-items:center;justify-content:center;font-size:10pt;color:var(--loop-on-navy-muted)">[Creatività · cliente] o grafico di copertina</div></div>
+<h1 style="margin:0;font-size:34pt;line-height:1.04;font-weight:600;letter-spacing:-0.028em">[Titolo del whitepaper]</h1>
+<p style="margin:0;font-size:14pt;line-height:1.35;color:var(--loop-on-navy-muted);max-width:140mm">[Sottotitolo: per chi è e cosa risolve, in una frase]</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:4mm"><div style="height:0.6mm;background:var(--loop-logo-gradient)"></div><div style="display:flex;justify-content:space-between;font-size:10pt;color:var(--loop-on-navy-muted)"><span>[Autori]</span><span>loopsrl.agency</span></div></div>
+</section>
+<section class="wp-page" data-screen-label="02 Summary" style="width:210mm;height:297mm;background:var(--loop-bg);padding:22mm 20mm;display:grid;grid-template-columns:1fr 1.6fr;gap:12mm;overflow:hidden">
+<div style="display:flex;flex-direction:column;gap:6mm">
+<h2 style="margin:0;font-size:12pt;font-weight:600;color:var(--loop-navy)">Indice</h2>
+<ol style="margin:0;padding:0;list-style:none;font-size:10.5pt;line-height:1.45;display:flex;flex-direction:column">
+<li style="display:flex;justify-content:space-between;padding:2.5mm 0;border-bottom:var(--loop-hairline) solid var(--loop-rule)"><span>01 Sintesi</span><span>2</span></li>
+<li style="display:flex;justify-content:space-between;padding:2.5mm 0;border-bottom:var(--loop-hairline) solid var(--loop-rule)"><span>02 [Capitolo]</span><span>3</span></li>
+<li style="display:flex;justify-content:space-between;padding:2.5mm 0;border-bottom:var(--loop-hairline) solid var(--loop-rule)"><span>03 [Capitolo]</span><span>[n]</span></li>
+<li style="display:flex;justify-content:space-between;padding:2.5mm 0;border-bottom:var(--loop-hairline) solid var(--loop-rule)"><span>04 Metodologia</span><span>[n]</span></li>
+</ol>
+</div>
+<div style="display:flex;flex-direction:column;gap:6mm">
+<h2 style="margin:0;font-size:24pt;line-height:1.1;font-weight:600;letter-spacing:-0.016em;color:var(--loop-navy)">Sintesi</h2>
+<p style="margin:0;font-size:12pt;line-height:1.5;color:var(--loop-ink-muted)">[Due frasi: la domanda a cui risponde il documento e la conclusione principale.]</p>
+<ul style="margin:0;padding-left:5mm;font-size:11pt;line-height:1.55;display:flex;flex-direction:column;gap:2mm"><li>[Evidenza 1, con fonte]</li><li>[Evidenza 2, con fonte]</li><li>[Evidenza 3, con fonte]</li></ul>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin-top:4mm">
+<div style="background:var(--loop-surface);border-radius:var(--loop-radius-md);padding:6mm;display:flex;flex-direction:column;gap:2mm"><span style="font-size:26pt;line-height:1;font-weight:500;font-family:var(--loop-font-mono);color:var(--loop-navy)">[valore]</span><span style="font-size:10pt;font-weight:600">[Metrica]</span><span style="font-size:9pt;color:var(--loop-ink-muted)">[periodo] · baseline [x] · [mercati]</span></div>
+<div style="background:var(--loop-surface);border-radius:var(--loop-radius-md);padding:6mm;display:flex;flex-direction:column;gap:2mm"><span style="font-size:26pt;line-height:1;font-weight:500;font-family:var(--loop-font-mono);color:var(--loop-navy)">[valore]</span><span style="font-size:10pt;font-weight:600">[Metrica]</span><span style="font-size:9pt;color:var(--loop-ink-muted)">[periodo] · baseline [x] · [canali]</span></div>
+</div>
+</div>
+<div style="grid-column:1/-1;align-self:end;display:flex;justify-content:space-between;font-size:9pt;color:var(--loop-ink-muted);border-top:var(--loop-hairline) solid var(--loop-rule);padding-top:3mm"><span>LOOP · [Titolo breve]</span><span>2</span></div>
+</section>
+<section class="wp-page" data-screen-label="03 Content" style="width:210mm;height:297mm;background:var(--loop-bg);padding:22mm 20mm;display:flex;flex-direction:column;gap:6mm;overflow:hidden">
+<span style="font-size:10pt;font-weight:600;color:var(--loop-ink-muted)">02</span>
+<h2 style="margin:0;font-size:24pt;line-height:1.1;font-weight:600;letter-spacing:-0.016em;color:var(--loop-navy);max-width:150mm">[Titolo del capitolo]</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8mm;font-size:11pt;line-height:1.55">
+<p style="margin:0">[Testo su due colonne. Frasi brevi, un'idea per paragrafo. Ogni numero ha periodo e fonte.]</p>
+<p style="margin:0">[Seconda colonna.]</p>
+</div>
+<figure style="margin:2mm 0 0;background:var(--loop-surface-2);border-radius:var(--loop-radius-lg);padding:var(--loop-frame-pad)">
+<div style="height:80mm;border-radius:var(--loop-radius-md);background:var(--loop-navy-50);display:flex;align-items:center;justify-content:center;font-size:10pt;color:var(--loop-ink-muted)">[Grafico: dati, asse, legenda]</div>
+<figcaption style="padding:2mm 2mm 1mm;font-size:8.5pt;color:var(--loop-ink-muted)">Figura 1. [Cosa mostra] · Fonte: [fonte], [periodo]</figcaption>
+</figure>
+<table style="width:100%;border-collapse:collapse;font-size:10pt">
+<thead><tr><th style="text-align:left;padding:2.5mm 0;border-bottom:var(--loop-hairline) solid var(--loop-rule-strong);font-weight:600">Canale</th><th style="text-align:right;padding:2.5mm 0;border-bottom:var(--loop-hairline) solid var(--loop-rule-strong);font-weight:600">[Metrica]</th><th style="text-align:right;padding:2.5mm 0;border-bottom:var(--loop-hairline) solid var(--loop-rule-strong);font-weight:600">Baseline</th></tr></thead>
+<tbody><tr><td style="padding:2.5mm 0;border-bottom:var(--loop-hairline) solid var(--loop-rule)">Meta</td><td style="text-align:right;border-bottom:var(--loop-hairline) solid var(--loop-rule)">[x]</td><td style="text-align:right;border-bottom:var(--loop-hairline) solid var(--loop-rule)">[x]</td></tr><tr><td style="padding:2.5mm 0;border-bottom:var(--loop-hairline) solid var(--loop-rule)">Google Ads</td><td style="text-align:right;border-bottom:var(--loop-hairline) solid var(--loop-rule)">[x]</td><td style="text-align:right;border-bottom:var(--loop-hairline) solid var(--loop-rule)">[x]</td></tr><tr><td style="padding:2.5mm 0;border-bottom:var(--loop-hairline) solid var(--loop-rule)">Klaviyo</td><td style="text-align:right;border-bottom:var(--loop-hairline) solid var(--loop-rule)">[x]</td><td style="text-align:right;border-bottom:var(--loop-hairline) solid var(--loop-rule)">[x]</td></tr></tbody>
+</table>
+<div style="margin-top:auto;display:flex;justify-content:space-between;font-size:9pt;color:var(--loop-ink-muted);border-top:var(--loop-hairline) solid var(--loop-rule);padding-top:3mm"><span>LOOP · [Titolo breve]</span><span>3</span></div>
+</section>
+<section class="wp-page" data-screen-label="04 Back" style="width:210mm;height:297mm;background:var(--loop-navy);color:var(--loop-on-navy);padding:22mm 20mm;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden">
+<img src="../../assets/logo-loop-w.svg" alt="LOOP" style="height:9mm;width:max-content">
+<div style="display:flex;flex-direction:column;gap:6mm;max-width:140mm">
+<h2 style="margin:0;font-size:24pt;line-height:1.1;font-weight:600">Richiedi un incontro</h2>
+<p style="margin:0;font-size:12pt;line-height:1.5;color:var(--loop-on-navy-muted)">Strategia, paid social, search e CRM per brand medio-grandi su più mercati.</p>
+<p style="margin:0;font-size:11pt">info@loopsrl.agency · loopsrl.agency</p>
+</div>
+<div style="font-size:8.5pt;line-height:1.5;color:var(--loop-on-navy-muted)">Loop srl · Piazzale Clodio 22, 00195 Roma · P.IVA 10041740969<br>Partner Google, Meta, TikTok, Klaviyo. Metodologia e fonti a pagina [n].</div>
+</section>
+</div>
+</x-dc>
+</body>
+</html>

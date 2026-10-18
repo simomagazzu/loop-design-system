@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Email · In The Loop" description="In The Loop newsletter: intro, Dal nostro blog, Dai nostri social, Cose che abbiamo studiato (with 'Consigliato da'), Ecom.Lab promo with CTA. 600px, email-safe raw hex." -->
+<helmet><script src="./ds-base.js"></script></helmet>
+<div style="background:#F3F4FA;padding:40px 16px;font-family:Inter,Arial,Helvetica,sans-serif;color:#0E1236">
+<div style="max-width:600px;margin:0 auto">
+<p style="margin:0 0 12px;font-size:12px;line-height:1.4;color:#4A5072;text-align:center">[Anteprima: impatto dei social sulla Search, ROAS e MER, GPT e plugin]</p>
+<div style="background:#FFFFFF;border-radius:12px;overflow:hidden">
+
+<div style="background:#0E7C82;padding:36px 40px 32px;color:#FFFFFF">
+<div style="display:flex;justify-content:space-between;align-items:center;gap:16px">
+<span style="font-size:13px;color:#E7F8F8">In The Loop · n. [00]</span>
+<img src="../../assets/logo-loop-w.svg" alt="LOOP" style="height:20px;width:auto;display:block">
+</div>
+<h1 style="margin:28px 0 0;font-size:44px;line-height:1;font-weight:700;letter-spacing:-0.03em">In The Loop</h1>
+<p style="margin:10px 0 0;font-size:15px;line-height:1.5;color:#E7F8F8">Quello che abbiamo scritto, condiviso e studiato questa settimana.</p>
+</div>
+
+<div style="padding:36px 40px 0;font-size:16px;line-height:1.65;color:#0E1236">
+<p style="margin:0 0 14px">Ciao {{ firstName }},</p>
+<p style="margin:0 0 14px">spesso chi cerca il tuo brand su Google ti ha già visto su Meta o TikTok: questa settimana sul nostro blog vediamo come misurare <strong>l'impatto dei social sulla Search.</strong></p>
+<p style="margin:0 0 14px">Sempre sui numeri: il <strong>ROAS</strong> è il dato che attribuiscono le piattaforme, il MER è quanto fatturi davvero rispetto a quanto spendi. Vediamo come usarli insieme.</p>
+<p style="margin:0">Infine, <strong>OpenAI sostituisce i GPT personalizzati</strong> con i plugin: scopriamo cosa cambia.</p>
+</div>
+
+<sc-for list="{{ sections }}" as="sec" hint-placeholder-count="3">
+<div style="padding:44px 40px 0">
+<h2 style="margin:0 0 4px;padding-bottom:14px;border-bottom:2px solid #192575;font-size:22px;line-height:1.2;font-weight:700;letter-spacing:-0.02em;color:#192575">{{ sec.title }}</h2>
+<sc-for list="{{ sec.items }}" as="it" hint-placeholder-count="2">
+<div style="display:flex;gap:20px;padding:22px 0;border-bottom:1px solid #E6E9F4">
+<div style="width:200px;flex:none;aspect-ratio:1/1;border-radius:8px;background:#E6E9F4;display:flex;align-items:center;justify-content:center;font-size:12px;line-height:1.4;color:#4A5072;text-align:center;padding:12px">{{ it.img }}</div>
+<div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:8px">
+<sc-if value="{{ it.by }}" hint-placeholder-val="{{ false }}"><span style="font-size:12px;font-weight:600;color:#0E7C82">{{ it.by }}</span></sc-if>
+<a href="#" style="font-size:17px;line-height:1.3;font-weight:600;color:#0E1236;text-decoration:none">{{ it.title }}</a>
+<p style="margin:0;font-size:14px;line-height:1.55;color:#4A5072">{{ it.body }}</p>
+<a href="#" style="margin-top:4px;font-size:14px;font-weight:600;color:#192575">{{ sec.cta }}</a>
+</div>
+</div>
+</sc-for>
+</div>
+</sc-for>
+
+<div style="margin:44px 40px 40px;padding:28px;background:#192575;border-radius:12px;color:#FFFFFF">
+<span style="font-size:13px;color:#C3C8E6">[Etichetta · es. Dai dati che analizziamo ogni giorno]</span>
+<p style="margin:8px 0 0;font-size:22px;line-height:1.25;font-weight:700;letter-spacing:-0.02em">[Titolo della call to action · es. Iscriviti a Ecom.Lab]</p>
+<p style="margin:12px 0 0;font-size:15px;line-height:1.55;color:#C3C8E6">[Una o due frasi: cosa riceve chi clicca e perché gli serve. Usa <strong style="color:#FFFFFF">grassetto</strong> per il beneficio principale.]</p>
+<div style="margin-top:20px;aspect-ratio:16/9;border-radius:8px;background:#121B5C;display:flex;align-items:center;justify-content:center;font-size:12px;color:#C3C8E6">[Immagine della call to action · facoltativa]</div>
+<a href="#" style="display:inline-block;margin-top:20px;background:#FFFFFF;color:#192575;text-decoration:none;font-size:15px;font-weight:600;padding:14px 24px;border-radius:8px">[Testo del bottone]</a>
+</div>
+
+</div>
+<div style="padding:24px 8px;font-size:12px;line-height:1.6;color:#4A5072;text-align:center">
+<p style="margin:0"><a href="https://loopsrl.agency" style="color:#192575;font-weight:600">loopsrl.agency</a> · Piazzale Clodio 22, 00195 Roma</p>
+<p style="margin:4px 0 0">Ricevi questa email perché sei iscritto a In The Loop. <a href="#" style="color:#192575">Disiscriviti</a> · <a href="#" style="color:#192575">Modifica le preferenze</a></p>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:680,&quot;height&quot;:2300},&quot;firstName&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;Simone&quot;,&quot;tsType&quot;:&quot;string&quot;}}">class Component extends DCLogic {
+  renderVals() {
+    return {
+      firstName: this.props.firstName ?? "Simone",
+      sections: [
+        { title: "Dal nostro blog", cta: "Vai all'articolo", items: [
+          { img: "[Copertina articolo · L'impatto di Meta e TikTok sulla Search]", title: "Chi alimenta la tua Search?", body: "Gran parte della domanda che Google intercetta nasce altrove. Vediamo quali dati guardare e come leggerli nel tempo." },
+          { img: "[Copertina articolo · MER vs ROAS]", title: "ROAS e MER a confronto", body: "In questo articolo vediamo la differenza tra ROAS e MER e come usarli insieme per valutare, ottimizzare e scalare le campagne di un e-commerce." },
+        ] },
+        { title: "Dai nostri social", cta: "Vedi il post", items: [
+          { img: "[Carosello · 10 principi di marketing, UX e design]", title: "Marketing, UX e design: le regole da tenere a mente", body: "Quando creiamo contenuti, spesso la parte grafica è fondamentale. Ecco alcune leggi e tecniche che, nel limite del possibile, dovremmo cercare di capire e seguire sempre di più per evitare di annoiare l'utente." },
+          { img: "[Post · Lead Gen + Booking con le Lead Ads]", title: "Lead ads con Calendly integrato", body: "Prenota la call direttamente: dopo l'Instant Form il lead sceglie giorno e ora della call senza uscire da Facebook. Ti spieghiamo come si imposta, per chi può essere utile e quali sono i limiti attuali." },
+        ] },
+        { title: "Cose che abbiamo studiato questa settimana", cta: "Leggi", items: [
+          { by: "Consigliato da Gabriele Agostinis", img: "[Schema · GPT, Skills e Apps]", title: "OpenAI \"sposta\" i suoi GPT", body: "OpenAI decide di spostare i suoi GPT trasformandoli in plugin. Anche Google sta sostituendo i Gems con le skill." },
+          { by: "Consigliato da Vittorio Melucci", img: "[Copertina · Google Ads for BFCM 2026]", title: "BFCM su Google Ads: cosa dicono i dati di 4.200 account", body: "Optmyzr ha analizzato 22.800 campagne sul BFCM 2025: utile per decidere ora come distribuire il budget sulle diverse fasi, invece di concentrarlo sul weekend." },
+        ] },
+      ],
+    };
+  }
+}</script>
+</body>
+</html>

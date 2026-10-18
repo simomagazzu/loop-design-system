@@ -1,0 +1,18 @@
+<!-- @dsCard group="Components" name="Clients & Partners" subtitle="Client logos (assets/clients/) in a monochrome wall · official partner badges" viewport="1000x720" -->
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<script src="image-slot.js"></script>
+<style>body{padding:var(--loop-space-7)}.g{display:flex;flex-direction:column;gap:var(--loop-space-9)}</style></head>
+<body><div id="r"></div><script type="text/babel">
+const DS = window.LOOPDesignSystem_29467e;
+const CLIENTS = [{"name":"Alessi","src":"../../assets/clients/alessi.png"},{"name":"Seletti","src":"../../assets/clients/seletti.png"},{"name":"Lastminute.com","src":"../../assets/clients/lastminute.png"},{"name":"Moby","src":"../../assets/clients/moby.png"},{"name":"Harmont & Blaine","src":"../../assets/clients/harmont-blaine.png"},{"name":"Bottega Verde","src":"../../assets/clients/bottega-verde.png","scale":0.95},{"name":"Würth","src":"../../assets/clients/wurth.png"},{"name":"Cisalfa","src":"../../assets/clients/cisalfa.png"},{"name":"Fanatics","src":"../../assets/clients/fanatics.png"},{"name":"Laika","src":"../../assets/clients/laika.png"},{"name":"Stihl","src":"../../assets/clients/stihl.png"},{"name":"De Matteo Home","src":"../../assets/clients/de-matteo-home.png","scale":0.95}];
+function Card(){ const { ClientLogoWall, PartnerBadgeRow } = DS; return <div className="g">
+  <ClientLogoWall clients={CLIENTS} columns={6} note="A questi si aggiungono progetti coperti da NDA, soprattutto nell'abbigliamento e nel retail europeo." />
+  <PartnerBadgeRow basePath="../../" />
+</div>; }
+ReactDOM.createRoot(document.getElementById("r")).render(<Card />);
+</script></body></html>
