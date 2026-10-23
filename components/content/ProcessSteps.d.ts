@@ -1,6 +1,6 @@
 export interface ProcessStepsProps {
   /** "Come lavoriamo nella pratica": Capiamo l'azienda → … → Impariamo e iteriamo */
-  steps: Array<{ title: string; desc: string }>;
+  steps: Array<{ title: string; desc: string; icon?: string }>;
   /** Closing line under the track */
   note?: string;
   className?: string;

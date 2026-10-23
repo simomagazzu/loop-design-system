@@ -8,11 +8,11 @@
 <body>
 <x-dc>
 <!-- @template name="Email · Creative.Lab" description="Creative.Lab newsletter: intro, 3 creatives with sector + why it works + Ad Library link, tips of the week, sign-off, other resources with CTA. 600px, email-safe raw hex." -->
-<helmet><script src="./ds-base.js"></script></helmet>
-<div style="background:#F3F4FA;padding:40px 16px;font-family:Inter,Arial,Helvetica,sans-serif;color:#0E1236">
+<helmet><script src="./ds-base.js"></script><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"></helmet>
+<div style="background:#F3F4FA;padding:40px 16px;font-family:Poppins,Arial,Helvetica,sans-serif;color:#0E1236">
 <div style="max-width:600px;margin:0 auto">
 <p style="margin:0 0 12px;font-size:12px;line-height:1.4;color:#4A5072;text-align:center">[Anteprima: tre creatività da Oreo, Glossier e Away]</p>
-<div style="background:#FFFFFF;border-radius:12px;overflow:hidden">
+<div style="background:#FFFFFF;border-radius:24px;overflow:hidden">
 
 <div style="background:#192575;padding:36px 40px 32px;color:#FFFFFF">
 <div style="display:flex;justify-content:space-between;align-items:center;gap:16px">
@@ -20,7 +20,6 @@
 <img src="../../assets/logo-loop-w.svg" alt="LOOP" style="height:20px;width:auto;display:block">
 </div>
 <h1 style="margin:28px 0 0;font-size:44px;line-height:1;font-weight:700;letter-spacing:-0.03em">Creative.Lab</h1>
-<p style="margin:10px 0 0;font-size:15px;line-height:1.5;color:#C3C8E6">Tre creatività, perché funzionano e cosa puoi riprendere.</p>
 </div>
 
 <div style="padding:36px 40px 8px;font-size:16px;line-height:1.65;color:#0E1236">
@@ -34,10 +33,10 @@
 <div style="padding:36px 40px 0">
 <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding-bottom:14px;border-bottom:2px solid #192575">
 <h2 style="margin:0;font-size:28px;line-height:1.1;font-weight:700;letter-spacing:-0.02em;color:#192575">{{ ad.brand }}</h2>
-<span style="font-size:13px;font-family:'Geist Mono',ui-monospace,monospace;color:#4A5072">{{ ad.n }} / 03</span>
+<span style="font-size:13px;color:#4A5072">{{ ad.n }} / 03</span>
 </div>
-<div style="margin-top:20px;background:#E6E9F4;border-radius:12px;padding:6px">
-<div style="aspect-ratio:9/16;max-height:520px;margin:0 auto;border-radius:8px;background:#F3F4FA;display:flex;align-items:center;justify-content:center;font-size:13px;color:#4A5072;text-align:center;padding:16px">{{ ad.label }}</div>
+<div style="margin-top:20px;background:#E6E9F4;border-radius:24px;padding:6px">
+<div style="aspect-ratio:9/16;max-height:520px;margin:0 auto;border-radius:16px;background:#F3F4FA;display:flex;align-items:center;justify-content:center;font-size:13px;color:#4A5072;text-align:center;padding:16px">{{ ad.label }}</div>
 </div>
 <p style="margin:16px 0 0;font-size:14px;color:#4A5072"><strong style="color:#0E1236;font-weight:600">Settore</strong> · {{ ad.sector }}</p>
 <h3 style="margin:22px 0 10px;font-size:18px;line-height:1.3;font-weight:600;color:#0E1236">Perché è interessante</h3>
@@ -46,11 +45,11 @@
 <li style="margin-bottom:10px">{{ ad.b2 }}</li>
 <li>{{ ad.b3 }}</li>
 </ul>
-<p style="margin:20px 0 0;padding:14px 16px;background:#F3F4FA;border-radius:8px;font-size:14px;line-height:1.5;color:#0E1236">Vuoi vedere altre ads di questo brand? <a href="#" style="color:#192575;font-weight:600">Apri la loro Ad Library</a></p>
+<p style="display:inline-block;margin:20px 0 0;padding:14px 20px;background:#F3F4FA;border-radius:999px;font-size:14px;line-height:1.5;color:#0E1236">Vuoi vedere altre ads di questo brand? <a href="#" style="color:#192575;font-weight:600">Apri la loro Ad Library</a></p>
 </div>
 </sc-for>
 
-<div style="margin:44px 40px 0;padding:28px;background:#F3F4FA;border-radius:12px">
+<div style="margin:44px 40px 0;padding:28px;background:#F3F4FA;border-radius:24px">
 <h2 style="margin:0 0 18px;font-size:22px;line-height:1.2;font-weight:700;letter-spacing:-0.02em;color:#192575">Consigli della settimana</h2>
 <ol style="margin:0;padding-left:22px;font-size:15px;line-height:1.6;color:#0E1236">
 <li style="margin-bottom:14px"><strong>"Un limite del prodotto va nascosto."</strong> Non per forza: formato piccolo, prezzo alto o tempi di consegna lunghi possono diventare argomenti di vendita se li anticipi tu nella creative, prima che diventino un'obiezione nella testa dell'utente (l'importante è farlo con intelligenza).</li>
@@ -66,12 +65,12 @@
 <div style="padding:44px 40px 40px">
 <h2 style="margin:0 0 20px;padding-bottom:14px;border-bottom:2px solid #192575;font-size:22px;line-height:1.2;font-weight:700;letter-spacing:-0.02em;color:#192575">Altre cose interessanti</h2>
 <p style="margin:0 0 16px;font-size:15px;line-height:1.6;color:#0E1236">[Call to action 1 · chi la propone e cosa offre, in una o due frasi. Es. <strong>Gabriele Agostinis</strong>, Head of Creatives di Loop, ha creato 100+ template Canva pronti da usare.]</p>
-<div style="aspect-ratio:2/1;border-radius:8px;background:#E6E9F4;display:flex;align-items:center;justify-content:center;font-size:13px;color:#4A5072">[Banner della call to action 1 · 2:1]</div>
-<a href="#" style="display:inline-block;margin-top:16px;background:#192575;color:#FFFFFF;text-decoration:none;font-size:15px;font-weight:600;padding:14px 24px;border-radius:8px">[Testo del bottone]</a>
+<div style="aspect-ratio:2/1;border-radius:16px;background:#E6E9F4;display:flex;align-items:center;justify-content:center;font-size:13px;color:#4A5072">[Banner della call to action 1 · 2:1]</div>
+<a href="#" style="display:inline-block;margin-top:16px;background:#192575;color:#FFFFFF;text-decoration:none;font-size:15px;font-weight:600;padding:14px 24px;border-radius:999px">[Testo del bottone]</a>
 <div style="height:1px;background:#E6E9F4;margin:32px 0"></div>
 <p style="margin:0 0 16px;font-size:15px;line-height:1.6;color:#0E1236">[Call to action 2 · chi la propone e cosa offre, in una o due frasi. Es. <strong>Gabriele Agostinis</strong>, Head of Creatives di Loop, ha creato 100+ template Canva pronti da usare.]</p>
-<div style="aspect-ratio:2/1;border-radius:8px;background:#E6E9F4;display:flex;align-items:center;justify-content:center;font-size:13px;color:#4A5072">[Banner della call to action 2 · 2:1]</div>
-<a href="#" style="display:inline-block;margin-top:16px;background:#192575;color:#FFFFFF;text-decoration:none;font-size:15px;font-weight:600;padding:14px 24px;border-radius:8px">[Testo del bottone]</a>
+<div style="aspect-ratio:2/1;border-radius:16px;background:#E6E9F4;display:flex;align-items:center;justify-content:center;font-size:13px;color:#4A5072">[Banner della call to action 2 · 2:1]</div>
+<a href="#" style="display:inline-block;margin-top:16px;background:#192575;color:#FFFFFF;text-decoration:none;font-size:15px;font-weight:600;padding:14px 24px;border-radius:999px">[Testo del bottone]</a>
 </div>
 
 </div>

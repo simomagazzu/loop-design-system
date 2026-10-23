@@ -1,7 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..800&family=Geist+Mono:wght@400..600&display=swap");
+@font-face{font-family:"Poppins";font-style:italic;font-weight:400;font-display:swap;src:url("fonts/Poppins-400i.woff2") format("woff2")}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:300;font-display:swap;src:url("fonts/Poppins-300.woff2") format("woff2")}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:400;font-display:swap;src:url("fonts/Poppins-400.woff2") format("woff2")}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:500;font-display:swap;src:url("fonts/Poppins-500.woff2") format("woff2")}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:600;font-display:swap;src:url("fonts/Poppins-600.woff2") format("woff2")}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:700;font-display:swap;src:url("fonts/Poppins-700.woff2") format("woff2")}
 /* =========================================================================
    LOOP Design System — v3 · Precisione
-   Inter for text, Geist Mono for figures and data. Hierarchy by weight and size.
+   Poppins only. Hierarchy by weight and size.
    Navy-led, white and navy do the work, teal is rare.
    This file is the ONLY place raw values live. Everything else uses var().
    ========================================================================= */
@@ -70,8 +75,8 @@
   --loop-focus:var(--loop-focus-width) solid var(--loop-focus-color); /* @kind other */
 
   /* ---- Type ---- */
-  --loop-font:"Inter",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
-  --loop-font-mono:"Geist Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --loop-font:"Poppins",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --loop-font-mono:var(--loop-font); /* kept for compatibility: no mono font in the system */
   --loop-wdth-condensed:100%; /* @kind font */
   --loop-wdth-normal:100%; /* @kind font */
   --loop-wdth-wide:100%; /* @kind font */
@@ -119,7 +124,7 @@
   --loop-gutter:var(--loop-space-7);
   --loop-container:1240px;
   --loop-measure:62ch; /* @kind other */
-  --loop-frame-pad:6px;                       /* nested-radius padding: 18 = 12 + 6 */
+  --loop-frame-pad:8px;                       /* nested-radius padding: 18 = 12 + 6 */
 
   /* ---- Sizes ---- */
   --loop-control-md:48px;
@@ -131,10 +136,10 @@
   --loop-hairline:1px;
 
   /* ---- Radii (nested rule: outer = inner + padding) ---- */
-  --loop-radius-xs:4px;
-  --loop-radius-sm:8px;
-  --loop-radius-md:12px;
-  --loop-radius-lg:18px;
+  --loop-radius-xs:6px;
+  --loop-radius-sm:12px;
+  --loop-radius-md:20px;
+  --loop-radius-lg:28px;
   --loop-radius-round:50%;
 
   /* ---- Elevation: one shadow, overlays only ---- */
@@ -164,7 +169,7 @@
 /* ---- Base ---- */
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-html,body{margin:0;font-family:var(--loop-font);font-feature-settings:"cv11","ss01";font-size:var(--loop-text-md);line-height:var(--loop-lh-body);color:var(--loop-ink);background:var(--loop-bg);-webkit-font-smoothing:antialiased;font-variant-numeric:lining-nums}
+html,body{margin:0;font-family:var(--loop-font);font-size:var(--loop-text-md);line-height:var(--loop-lh-body);color:var(--loop-ink);background:var(--loop-bg);-webkit-font-smoothing:antialiased;font-variant-numeric:lining-nums}
 img,svg{display:block;max-width:100%}
 button,input,select,textarea{font:inherit;color:inherit}
 :focus{outline:none}

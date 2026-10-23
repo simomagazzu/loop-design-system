@@ -1,6 +1,6 @@
 export interface LeversProps {
   /** Acquisizione, Conversione, Retention, Dati, Strategia e Advisory */
-  items: Array<{ name: string; what: string; outcome: string }>;
+  items: Array<{ name: string; what: string; outcome: string; icon?: string }>;
   /** e.g. "Non proponiamo un pacchetto standard: attiviamo solo le leve che servono al singolo progetto." */
   footnote?: string;
   className?: string;

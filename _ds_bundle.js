@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":4,"namespace":"LOOPDesignSystem_29467e","components":[{"name":"ClientLogoWall","sourcePath":"components/brand/ClientLogoWall.jsx"},{"name":"PartnerBadgeRow","sourcePath":"components/brand/PartnerBadgeRow.jsx"},{"name":"Button","sourcePath":"components/button/Button.jsx"},{"name":"ChoiceChips","sourcePath":"components/chips/ChoiceChips.jsx"},{"name":"FilterChips","sourcePath":"components/chips/FilterChips.jsx"},{"name":"CoreFramework","sourcePath":"components/content/CoreFramework.jsx"},{"name":"Framework","sourcePath":"components/content/Framework.jsx"},{"name":"InsightCard","sourcePath":"components/content/InsightCard.jsx"},{"name":"Levers","sourcePath":"components/content/Levers.jsx"},{"name":"ProcessSteps","sourcePath":"components/content/ProcessSteps.jsx"},{"name":"Quote","sourcePath":"components/content/Quote.jsx"},{"name":"SectionHeader","sourcePath":"components/content/SectionHeader.jsx"},{"name":"CaseCard","sourcePath":"components/data/CaseCard.jsx"},{"name":"CaseRow","sourcePath":"components/data/CaseRow.jsx"},{"name":"KeyFigures","sourcePath":"components/data/KeyFigures.jsx"},{"name":"Stat","sourcePath":"components/data/Stat.jsx"},{"name":"WorkFrame","sourcePath":"components/data/WorkFrame.jsx"},{"name":"Accordion","sourcePath":"components/disclosure/Accordion.jsx"},{"name":"Tabs","sourcePath":"components/disclosure/Tabs.jsx"},{"name":"Input","sourcePath":"components/fields/Input.jsx"},{"name":"Select","sourcePath":"components/fields/Select.jsx"},{"name":"Textarea","sourcePath":"components/fields/Textarea.jsx"},{"name":"Icon","sourcePath":"components/icon/Icon.jsx"},{"name":"ICON_NAMES","sourcePath":"components/icon/Icon.jsx"},{"name":"Footer","sourcePath":"components/layout/Footer.jsx"},{"name":"Header","sourcePath":"components/layout/Header.jsx"},{"name":"PartnersCollage","sourcePath":"components/people/PartnersCollage.jsx"},{"name":"PersonCard","sourcePath":"components/people/PersonCard.jsx"},{"name":"TeamGrid","sourcePath":"components/people/PersonCard.jsx"},{"name":"TeamCarousel","sourcePath":"components/people/TeamCarousel.jsx"}],"sourceHashes":{"components/brand/ClientLogoWall.jsx":"b330003650b9","components/brand/PartnerBadgeRow.jsx":"37c55f8b5092","components/brand/image-slot.js":"fff26d081c8d","components/button/Button.jsx":"c6730246c86d","components/chips/ChoiceChips.jsx":"433f75818ff7","components/chips/FilterChips.jsx":"599aa59221b0","components/content/CoreFramework.jsx":"6ead1e4bfa6f","components/content/Framework.jsx":"2698b70f7006","components/content/InsightCard.jsx":"164e4b60cf3d","components/content/Levers.jsx":"a37550e40db6","components/content/ProcessSteps.jsx":"2448e2fe21a4","components/content/Quote.jsx":"cbdf642cfdee","components/content/SectionHeader.jsx":"ad88bcde6ba5","components/data/CaseCard.jsx":"40247d82a5f3","components/data/CaseRow.jsx":"ca3667cf5061","components/data/KeyFigures.jsx":"cf3500ab453a","components/data/Stat.jsx":"f77ff860da8a","components/data/WorkFrame.jsx":"9eedb666a6ce","components/data/image-slot.js":"fff26d081c8d","components/disclosure/Accordion.jsx":"2792c7656bcd","components/disclosure/Tabs.jsx":"9f48c15dcda7","components/fields/Input.jsx":"64ae98cc8e23","components/fields/Select.jsx":"0a8e9d8437d3","components/fields/Textarea.jsx":"d5bf6bda78fb","components/icon/Icon.jsx":"3efc6197755f","components/layout/Footer.jsx":"dcb58e8f9f57","components/layout/Header.jsx":"ef27fe6f8f72","components/people/PartnersCollage.jsx":"d9d38bb3fedd","components/people/PersonCard.jsx":"6d0c128f9281","components/people/TeamCarousel.jsx":"53ad360fbbc9","components/people/image-slot.js":"fff26d081c8d"},"inlinedExternals":[],"unexposedExports":[{"name":"placeholderize","sourcePath":"components/data/Stat.jsx"}]} */
+/* @ds-bundle: {"format":4,"namespace":"LOOPDesignSystem_29467e","components":[{"name":"ClientLogoWall","sourcePath":"components/brand/ClientLogoWall.jsx"},{"name":"PartnerBadgeRow","sourcePath":"components/brand/PartnerBadgeRow.jsx"},{"name":"Button","sourcePath":"components/button/Button.jsx"},{"name":"ChoiceChips","sourcePath":"components/chips/ChoiceChips.jsx"},{"name":"FilterChips","sourcePath":"components/chips/FilterChips.jsx"},{"name":"CoreFramework","sourcePath":"components/content/CoreFramework.jsx"},{"name":"Framework","sourcePath":"components/content/Framework.jsx"},{"name":"InsightCard","sourcePath":"components/content/InsightCard.jsx"},{"name":"Levers","sourcePath":"components/content/Levers.jsx"},{"name":"ProcessSteps","sourcePath":"components/content/ProcessSteps.jsx"},{"name":"Quote","sourcePath":"components/content/Quote.jsx"},{"name":"SectionHeader","sourcePath":"components/content/SectionHeader.jsx"},{"name":"CaseCard","sourcePath":"components/data/CaseCard.jsx"},{"name":"KeyFigures","sourcePath":"components/data/KeyFigures.jsx"},{"name":"WorkFrame","sourcePath":"components/data/WorkFrame.jsx"},{"name":"Accordion","sourcePath":"components/disclosure/Accordion.jsx"},{"name":"Tabs","sourcePath":"components/disclosure/Tabs.jsx"},{"name":"Input","sourcePath":"components/fields/Input.jsx"},{"name":"Select","sourcePath":"components/fields/Select.jsx"},{"name":"Textarea","sourcePath":"components/fields/Textarea.jsx"},{"name":"Icon","sourcePath":"components/icon/Icon.jsx"},{"name":"ICON_NAMES","sourcePath":"components/icon/Icon.jsx"},{"name":"Footer","sourcePath":"components/layout/Footer.jsx"},{"name":"Header","sourcePath":"components/layout/Header.jsx"},{"name":"PartnersCollage","sourcePath":"components/people/PartnersCollage.jsx"},{"name":"PersonCard","sourcePath":"components/people/PersonCard.jsx"},{"name":"TeamGrid","sourcePath":"components/people/PersonCard.jsx"},{"name":"TeamCarousel","sourcePath":"components/people/TeamCarousel.jsx"}],"sourceHashes":{"components/brand/ClientLogoWall.jsx":"b330003650b9","components/brand/PartnerBadgeRow.jsx":"37c55f8b5092","components/brand/image-slot.js":"fff26d081c8d","components/button/Button.jsx":"c6730246c86d","components/chips/ChoiceChips.jsx":"433f75818ff7","components/chips/FilterChips.jsx":"599aa59221b0","components/content/CoreFramework.jsx":"6ead1e4bfa6f","components/content/Framework.jsx":"2698b70f7006","components/content/InsightCard.jsx":"164e4b60cf3d","components/content/Levers.jsx":"b5ea2bd1cb60","components/content/ProcessSteps.jsx":"f7324e398301","components/content/Quote.jsx":"cbdf642cfdee","components/content/SectionHeader.jsx":"ad88bcde6ba5","components/data/CaseCard.jsx":"40247d82a5f3","components/data/KeyFigures.jsx":"bc52eb75b2fa","components/data/WorkFrame.jsx":"9eedb666a6ce","components/data/image-slot.js":"fff26d081c8d","components/disclosure/Accordion.jsx":"2792c7656bcd","components/disclosure/Tabs.jsx":"9f48c15dcda7","components/fields/Input.jsx":"64ae98cc8e23","components/fields/Select.jsx":"0a8e9d8437d3","components/fields/Textarea.jsx":"d5bf6bda78fb","components/icon/Icon.jsx":"3efc6197755f","components/layout/Footer.jsx":"dcb58e8f9f57","components/layout/Header.jsx":"ef27fe6f8f72","components/people/PartnersCollage.jsx":"d9d38bb3fedd","components/people/PersonCard.jsx":"6d0c128f9281","components/people/TeamCarousel.jsx":"53ad360fbbc9","components/people/image-slot.js":"fff26d081c8d"},"inlinedExternals":[],"unexposedExports":[]} */
 
 (() => {
 
@@ -1558,63 +1558,6 @@ function CoreFramework({
 Object.assign(__ds_scope, { CoreFramework });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/content/CoreFramework.jsx", error: String((e && e.message) || e) }); }
 
-// components/content/Levers.jsx
-try { (() => {
-function Levers({
-  items = [],
-  footnote,
-  className = ""
-}) {
-  return /*#__PURE__*/React.createElement("div", {
-    className: "lp-levers " + className
-  }, /*#__PURE__*/React.createElement("ul", {
-    className: "lp-levers__list"
-  }, items.map(l => /*#__PURE__*/React.createElement("li", {
-    key: l.name,
-    className: "lp-levers__item"
-  }, /*#__PURE__*/React.createElement("h3", {
-    className: "lp-levers__name"
-  }, l.name), /*#__PURE__*/React.createElement("p", {
-    className: "lp-levers__what"
-  }, l.what), /*#__PURE__*/React.createElement("p", {
-    className: "lp-levers__out"
-  }, l.outcome)))), footnote && /*#__PURE__*/React.createElement("p", {
-    className: "lp-levers__foot"
-  }, footnote));
-}
-Object.assign(__ds_scope, { Levers });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/content/Levers.jsx", error: String((e && e.message) || e) }); }
-
-// components/content/ProcessSteps.jsx
-try { (() => {
-function ProcessSteps({
-  steps = [],
-  note,
-  className = ""
-}) {
-  return /*#__PURE__*/React.createElement("div", {
-    className: "lp-steps " + className
-  }, /*#__PURE__*/React.createElement("ol", {
-    className: "lp-steps__list"
-  }, steps.map((s, i) => /*#__PURE__*/React.createElement("li", {
-    key: s.title,
-    className: "lp-steps__item" + (i === steps.length - 1 ? " lp-steps__item--last" : "")
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "lp-steps__n loop-mono"
-  }, i + 1), /*#__PURE__*/React.createElement("h3", {
-    className: "lp-steps__t"
-  }, s.title), /*#__PURE__*/React.createElement("p", {
-    className: "lp-steps__d"
-  }, s.desc)))), /*#__PURE__*/React.createElement("div", {
-    className: "lp-steps__return",
-    "aria-hidden": "true"
-  }, /*#__PURE__*/React.createElement("span", null)), note && /*#__PURE__*/React.createElement("p", {
-    className: "lp-steps__note"
-  }, note));
-}
-Object.assign(__ds_scope, { ProcessSteps });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/content/ProcessSteps.jsx", error: String((e && e.message) || e) }); }
-
 // components/content/Quote.jsx
 try { (() => {
 function Quote({
@@ -1664,90 +1607,6 @@ function SectionHeader({
 }
 Object.assign(__ds_scope, { SectionHeader });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/content/SectionHeader.jsx", error: String((e && e.message) || e) }); }
-
-// components/data/KeyFigures.jsx
-try { (() => {
-function KeyFigures({
-  lead,
-  items = [],
-  footnote,
-  className = ""
-}) {
-  const total = lead && lead.breakdown ? lead.breakdown.reduce((a, b) => a + (b.amount || 0), 0) : 0;
-  return /*#__PURE__*/React.createElement("div", {
-    className: "lp-figs " + className
-  }, lead && /*#__PURE__*/React.createElement("div", {
-    className: "lp-figs__lead"
-  }, /*#__PURE__*/React.createElement("p", {
-    className: "lp-figs__statement"
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "lp-figs__big"
-  }, lead.value), " ", lead.label), lead.breakdown && /*#__PURE__*/React.createElement("div", {
-    className: "lp-figs__split"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "lp-figs__bar",
-    "aria-hidden": "true"
-  }, lead.breakdown.map((b, i) => /*#__PURE__*/React.createElement("i", {
-    key: b.label,
-    className: "lp-figs__seg lp-figs__seg--" + i,
-    style: {
-      flexGrow: b.amount || 1
-    }
-  }))), /*#__PURE__*/React.createElement("ul", {
-    className: "lp-figs__legend"
-  }, lead.breakdown.map((b, i) => /*#__PURE__*/React.createElement("li", {
-    key: b.label
-  }, /*#__PURE__*/React.createElement("i", {
-    className: "lp-figs__dot lp-figs__seg--" + i
-  }), /*#__PURE__*/React.createElement("b", null, b.label), /*#__PURE__*/React.createElement("span", {
-    className: "loop-mono"
-  }, b.value)))))), /*#__PURE__*/React.createElement("ul", {
-    className: "lp-figs__row"
-  }, items.map(i => /*#__PURE__*/React.createElement("li", {
-    key: i.label
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "lp-figs__v"
-  }, i.value), /*#__PURE__*/React.createElement("span", {
-    className: "lp-figs__l"
-  }, i.label)))), footnote && /*#__PURE__*/React.createElement("p", {
-    className: "lp-figs__foot"
-  }, footnote));
-}
-Object.assign(__ds_scope, { KeyFigures });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/data/KeyFigures.jsx", error: String((e && e.message) || e) }); }
-
-// components/data/Stat.jsx
-try { (() => {
-const PH = v => v == null || v === "" ? /*#__PURE__*/React.createElement("span", {
-  className: "loop-placeholder"
-}, "[da confermare]") : /^\[.*\]$/.test(String(v)) ? /*#__PURE__*/React.createElement("span", {
-  className: "loop-placeholder"
-}, v) : v;
-function Stat({
-  value,
-  label,
-  period,
-  baseline,
-  channels,
-  markets,
-  size = "md",
-  className = ""
-}) {
-  const rows = [["Periodo", period], ["Baseline", baseline], ["Canali", channels], ["Mercati", markets]].filter(r => r[1] !== undefined);
-  return /*#__PURE__*/React.createElement("div", {
-    className: "lp-stat" + (size === "lg" ? " lp-stat--lg" : "") + (className ? " " + className : "")
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "lp-stat__value"
-  }, PH(value)), /*#__PURE__*/React.createElement("span", {
-    className: "lp-stat__label"
-  }, label), rows.length > 0 && /*#__PURE__*/React.createElement("dl", {
-    className: "lp-stat__ctx"
-  }, rows.map(([k, v]) => /*#__PURE__*/React.createElement(React.Fragment, {
-    key: k
-  }, /*#__PURE__*/React.createElement("dt", null, k), /*#__PURE__*/React.createElement("dd", null, PH(v))))));
-}
-Object.assign(__ds_scope, { Stat, placeholderize: PH });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/data/Stat.jsx", error: String((e && e.message) || e) }); }
 
 // components/data/WorkFrame.jsx
 try { (() => {
@@ -3230,6 +3089,79 @@ function InsightCard({
 Object.assign(__ds_scope, { InsightCard });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/content/InsightCard.jsx", error: String((e && e.message) || e) }); }
 
+// components/content/Levers.jsx
+try { (() => {
+const LEVER_ICONS = {
+  "Acquisizione": "megaphone",
+  "Conversione": "cursor",
+  "Retention": "automation",
+  "Dati": "chart-up",
+  "Strategia e Advisory": "strategy",
+  "Strategia": "strategy"
+};
+function Levers({
+  items = [],
+  footnote,
+  className = ""
+}) {
+  return /*#__PURE__*/React.createElement("div", {
+    className: "lp-levers " + className
+  }, /*#__PURE__*/React.createElement("ul", {
+    className: "lp-levers__list"
+  }, items.map(l => /*#__PURE__*/React.createElement("li", {
+    key: l.name,
+    className: "lp-levers__item"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "lp-levers__ic"
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: l.icon || LEVER_ICONS[l.name] || "target",
+    size: "lg"
+  })), /*#__PURE__*/React.createElement("h3", {
+    className: "lp-levers__name"
+  }, l.name), /*#__PURE__*/React.createElement("p", {
+    className: "lp-levers__what"
+  }, l.what), /*#__PURE__*/React.createElement("p", {
+    className: "lp-levers__out"
+  }, l.outcome)))), footnote && /*#__PURE__*/React.createElement("p", {
+    className: "lp-levers__foot"
+  }, footnote));
+}
+Object.assign(__ds_scope, { Levers });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/content/Levers.jsx", error: String((e && e.message) || e) }); }
+
+// components/content/ProcessSteps.jsx
+try { (() => {
+const STEP_ICONS = ["search", "target", "filter", "megaphone", "chart-up", "automation"];
+function ProcessSteps({
+  steps = [],
+  note,
+  className = ""
+}) {
+  return /*#__PURE__*/React.createElement("div", {
+    className: "lp-steps " + className
+  }, /*#__PURE__*/React.createElement("ol", {
+    className: "lp-steps__list"
+  }, steps.map((s, i) => /*#__PURE__*/React.createElement("li", {
+    key: s.title,
+    className: "lp-steps__item" + (i === steps.length - 1 ? " lp-steps__item--last" : "")
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "lp-steps__n"
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: s.icon || STEP_ICONS[i] || "check"
+  })), /*#__PURE__*/React.createElement("h3", {
+    className: "lp-steps__t"
+  }, s.title), /*#__PURE__*/React.createElement("p", {
+    className: "lp-steps__d"
+  }, s.desc)))), /*#__PURE__*/React.createElement("div", {
+    className: "lp-steps__return",
+    "aria-hidden": "true"
+  }, /*#__PURE__*/React.createElement("span", null)), note && /*#__PURE__*/React.createElement("p", {
+    className: "lp-steps__note"
+  }, note));
+}
+Object.assign(__ds_scope, { ProcessSteps });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/content/ProcessSteps.jsx", error: String((e && e.message) || e) }); }
+
 // components/data/CaseCard.jsx
 try { (() => {
 function CaseCard({
@@ -3293,53 +3225,58 @@ function CaseCard({
 Object.assign(__ds_scope, { CaseCard });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/data/CaseCard.jsx", error: String((e && e.message) || e) }); }
 
-// components/data/CaseRow.jsx
+// components/data/KeyFigures.jsx
 try { (() => {
-let __r = 0;
-function CaseRow({
-  client,
-  title,
-  channels,
-  objective,
-  period,
-  markets,
-  children,
-  defaultOpen = false
+function KeyFigures({
+  lead,
+  items = [],
+  footnote,
+  className = ""
 }) {
-  const [on, setOn] = React.useState(defaultOpen);
-  const [uid] = React.useState(() => "lp-cr-" + ++__r);
+  const total = lead && lead.breakdown ? lead.breakdown.reduce((a, b) => a + (b.amount || 0), 0) : 0;
   return /*#__PURE__*/React.createElement("div", {
-    className: "lp-caserow"
-  }, /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    className: "lp-caserow__btn",
-    "aria-expanded": on,
-    "aria-controls": uid,
-    onClick: () => setOn(!on)
+    className: "lp-figs " + className
+  }, lead && /*#__PURE__*/React.createElement("div", {
+    className: "lp-figs__lead"
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "lp-figs__statement"
   }, /*#__PURE__*/React.createElement("span", {
-    className: "lp-caserow__client"
-  }, client), /*#__PURE__*/React.createElement("span", {
-    className: "lp-caserow__title"
-  }, title), /*#__PURE__*/React.createElement("span", {
-    className: "lp-caserow__chan"
-  }, channels), /*#__PURE__*/React.createElement(__ds_scope.Icon, {
-    name: "chevron-down"
-  })), /*#__PURE__*/React.createElement("div", {
-    id: uid,
-    hidden: !on,
-    className: "lp-caserow__panel"
-  }, /*#__PURE__*/React.createElement("dl", {
-    className: "lp-case__meta",
+    className: "lp-figs__big"
+  }, lead.value), " ", lead.label), lead.breakdown && /*#__PURE__*/React.createElement("div", {
+    className: "lp-figs__split"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "lp-figs__bar",
+    "aria-hidden": "true"
+  }, lead.breakdown.map((b, i) => /*#__PURE__*/React.createElement("i", {
+    key: b.label,
+    className: "lp-figs__seg lp-figs__seg--" + i,
     style: {
-      borderTop: 0,
-      paddingTop: 0
+      flexGrow: b.amount || 1
     }
-  }, [["Obiettivo", objective], ["Periodo", period], ["Canali", channels], ["Mercati", markets]].map(([k, v]) => /*#__PURE__*/React.createElement("div", {
-    key: k
-  }, /*#__PURE__*/React.createElement("dt", null, k), /*#__PURE__*/React.createElement("dd", null, __ds_scope.placeholderize(v))))), /*#__PURE__*/React.createElement("div", null, children)));
+  }))), /*#__PURE__*/React.createElement("ul", {
+    className: "lp-figs__legend"
+  }, lead.breakdown.map((b, i) => /*#__PURE__*/React.createElement("li", {
+    key: b.label
+  }, /*#__PURE__*/React.createElement("i", {
+    className: "lp-figs__dot lp-figs__seg--" + i
+  }), /*#__PURE__*/React.createElement("b", null, b.label), /*#__PURE__*/React.createElement("span", null, b.value)))))), /*#__PURE__*/React.createElement("ul", {
+    className: "lp-figs__row"
+  }, items.map(i => /*#__PURE__*/React.createElement("li", {
+    key: i.label
+  }, i.icon && /*#__PURE__*/React.createElement("span", {
+    className: "lp-figs__ic"
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: i.icon
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "lp-figs__v"
+  }, i.value), /*#__PURE__*/React.createElement("span", {
+    className: "lp-figs__l"
+  }, i.label)))), footnote && /*#__PURE__*/React.createElement("p", {
+    className: "lp-figs__foot"
+  }, footnote));
 }
-Object.assign(__ds_scope, { CaseRow });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/data/CaseRow.jsx", error: String((e && e.message) || e) }); }
+Object.assign(__ds_scope, { KeyFigures });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/data/KeyFigures.jsx", error: String((e && e.message) || e) }); }
 
 // components/disclosure/Accordion.jsx
 try { (() => {
@@ -5105,11 +5042,7 @@ __ds_ns.SectionHeader = __ds_scope.SectionHeader;
 
 __ds_ns.CaseCard = __ds_scope.CaseCard;
 
-__ds_ns.CaseRow = __ds_scope.CaseRow;
-
 __ds_ns.KeyFigures = __ds_scope.KeyFigures;
-
-__ds_ns.Stat = __ds_scope.Stat;
 
 __ds_ns.WorkFrame = __ds_scope.WorkFrame;
 
